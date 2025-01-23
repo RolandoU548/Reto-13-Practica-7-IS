@@ -456,7 +456,7 @@ public class ICentro extends JFrame {
         }
 
         private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-                try (FileWriter fw = new FileWriter("report.txt", false);
+                try (FileWriter fw = new FileWriter("inventario.txt", false);
                                 BufferedWriter bw = new BufferedWriter(fw);
                                 PrintWriter out = new PrintWriter(bw)) {
                         for (Equipo equipo : listaEquipos) {
